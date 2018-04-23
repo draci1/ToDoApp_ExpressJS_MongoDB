@@ -26,6 +26,16 @@ console.log('hello world');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
+app.post('/todo/add',(req,res,next) => {
+    todos.insert({title: req.body.title, description: req.body.description.trim()}, (err,document)=>{
+        if(err){
+            console.log(err);
+            return;
+        }
+        res.redirect('/');
+    })
+});
+
 app.get('/', function (req,res){
     todos.find({}).toArray(function(err,docs){
         if(err){
