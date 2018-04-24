@@ -4,17 +4,17 @@
         <div class="col-md-3 bg-dark h-100">
             <h1 class="text-light">Testing left panel</h1>
             <ul class="text-light">
-                <li>option 1</li>
+                <li>Faculty</li>
                 <ul>
-                    <li>option 1.1</li>
-                    <li>option 1.2</li>
-                    <li>option 1.3</li>
-                    <li>option 1.4</li>
-                    <li>option 1.5</li>
+                    <li>MongoDB</li>
+                    <li>ExpressJS</li>
+                    <li>ReactJS</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
-                <li>option 3</li>
-                <li>option 4</li>
-                <li>option 5</li>
+                <li>Recipes I think I'll try later but actually don't</li>
+                <li>Personal</li>
+                <li>Shows to binge-watch</li>
             </ul>
         </div>
         <div class="col-md-9 bg-light h-100" style="max-height:100%;overflow-y:auto;">
@@ -32,27 +32,37 @@
                     </div>
                 </div>
             </div>
+            <br>
             <div id="login_form">
                 <div class="card-deck">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Click me!</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Edit and delete me!</p>
+                            <div style="float:right;">
+                                <button type="button" id="popupproj" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Short card!</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                 </div><br />
@@ -61,44 +71,30 @@
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a medium sized card. Some more text text text</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                </div><br />
-                <div class="card-deck">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is just another card.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card is just taking some space.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is the last card for now. I guess I will make this one a little big larger than most of the other cards.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">This is a... you guessed it, a card!</p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                 </div><br />
@@ -107,21 +103,62 @@
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is just another card.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card is just taking some space.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is the last card for now. I guess I will make this one a little big larger than most of the other cards.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div><br />
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is just another card.</p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card is just taking some space.</p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is the last card for now. I guess I will make this one a little big larger than most of the other cards.</p>
+                            <div style="float:right;">
+                                <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                                <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,14 +172,189 @@
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
                         <th scope="col">Description</th>
+                        <th scope="col">Modify</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <th scope="row">1</th>
                         <td>Card Title</td>
-                        <td>Click me!</td>
-
+                        <td>Edit and delete me!</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Card Title</td>
+                        <td>Some text for display purpose...</td>
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
@@ -160,127 +372,19 @@
                         <th scope="row">1</th>
                         <td>Card Title</td>
                         <td>Some text for display purpose...</td>
-
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
                         <td>Card Title</td>
                         <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Card Title</td>
-                        <td>Some text for display purpose...</td>
-
+                        <td>
+                            <button type="button" id="edit_1" class="btn btn-default fa fa-edit" data-toggle="button"></button>
+                            <button type="button" id="delete_1" class="btn btn-default fa fa-trash" data-toggle="button"></button>
+                        </td>
                     </tr>
                     </tbody>
                 </table>
